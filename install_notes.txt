@@ -39,5 +39,10 @@ sudo npm install -g localtunnel
 lt --port 3000 --subdomain latindancevideos
 https://latindancevideos.localtunnel.me
 
+https://www.yougetsignal.com/tools/open-ports/
+
 
 facebook token for latindancevideos page.
+
+
+The only subscription fields you need to select are messages, messaging_postbacks, messaging_optins, and message_deliveries.
