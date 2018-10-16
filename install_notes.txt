@@ -1,0 +1,43 @@
+
+
+https://cosmicjs.com/blog/how-to-build-a-facebook-bot-app-using-nodejs
+
+
+sudo apt-get update
+
+#nb: need lates
+t version of node.
+#https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+wget -qO- https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node -v
+
+v10.12.0
+
+#install yarn
+https://yarnpkg.com/lang/en/docs/install/#debian-stable
+
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
+
+yarn -v
+#1.10.1
+
+
+touch .env
+
+
+npm run start
+#open new bash shell on server
+netstat -l
+#check can see node running on default port of 5000
+
+https://www.npmjs.com/package/localtunnel
+sudo npm install -g localtunnel
+
+lt --port 3000 --subdomain latindancevideos
+https://latindancevideos.localtunnel.me
+
+
+facebook token for latindancevideos page.
